@@ -11,10 +11,11 @@ body {
 
 @layer components {
     .glass {
-        @apply bg-white/10 border border-white/20;
+        @apply bg-black border border-white/20;
     }
 
     .btn {
         @apply cursor-pointer rounded-full px-8 py-2.5 font-medium text-black transition hover:opacity-90 active:scale-98;
     }
+
 }
