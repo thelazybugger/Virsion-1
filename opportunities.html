@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manova Softs</title>
+    <link rel="stylesheet" href="./output.css" />
+    <link rel="icon" href="Manova.png" />
+</head>
+
+<body>
+    <nav id="navbar"
+        class="sticky top-0 z-50 flex w-full items-center backdrop-blur-2xl justify-between px-4 py-3.5 md:px-16 lg:px-24 transition-all duration-300">
+        <a href="/">
+            <img alt="logo" loading="lazy" decoding="async" data-nimg="1" class="h-15 w-auto" style="color: transparent"
+                src="Manova.png" />
+        </a>
+        <div class="hidden items-center space-x-10 md:flex">
+            <a class="transition text-black hover:text-gray-900" href="/">Home</a>
+            <a class="transition text-black hover:text-gray-900" href="#Process">Process</a>
+            <a class="transition text-black hover:text-gray-900" href="casestudy.html">Case Study</a>
+            <a class="transition text-black hover:text-gray-900" href="opportunities.html">Careers</a>
+            <a class="transition text-black hover:text-gray-900" href="contact.html ">Contact Us </a>
+            <a class="btn glass text-black border-pink-800" onclick="window.open('https://calendly.com/manovasofts/30min', '_blank')">Book a
+                call</a>
+        </div>
+        <button id="menu-btn" class="transition active:scale-90 md:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                 stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-menu size-6.5" aria-hidden="true">
+                <path d="M4 5h16"></path>
+                <path d="M4 12h16"></path>
+                <path d="M4 19h16"></path>
+            </svg>
+        </button>
+    </nav>
+    <div id="mobile-menu"
+        class="fixed inset-0 z-50 flex flex-col items-center justify-center gap-6 bg-pink/20 text-lg font-medium backdrop-blur-2xl transition duration-300 md:hidden -translate-x-full">
+        <a href="/" class="text-black hover:text-gray-900">Home</a>
+        <a href="#Process" class="text-black hover:text-gray-900">Process</a>
+        <a href="casestudy.html" class="text-black hover:text-gray-900">Case Study</a>
+        <a href="opportunities.html" class="text-black hover:text-gray-900">Careers</a>
+        <a href="contact.html" class="text-black hover:text-gray-900">Contact Us</a>
+        <a class="btn glass text-black hover:text-gray-900" onclick="window.open('https://calendly.com/manovasofts/30min', '_blank')">Book a call</a>
+        <button id="close-btn" class="rounded-md p-2 glass">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                 stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-x" aria-hidden="true">
+                <path d="M18 6 6 18"></path>
+                <path d="m6 6 12 12"></path>
+            </svg>
+        </button>
+    </div>
+
+    <div class="fixed inset-0 overflow-hidden -z-20 bg-[#F5F5DC] pointer-events-none">
+        <div class="absolute rounded-full top-80 left-1/3 -translate-x-1/2 size-130 bg-[#EC3D69] blur-[100px]"></div>
+        <div class="absolute rounded-full top-80 -right-20 -translate-x-1/2 size-130 bg-[#EC3D69] blur-[100px]"></div>
+        <div class="absolute rounded-full top-0 left-1/2 -translate-x-1/2 size-130 bg-[#EC3D69] blur-[100px]"></div>
+
+    </div>
+
+
+    <div class="flex flex-col items-center">
+
+        <h2 class="text-center text-4xl font-bold max-w-2xl items-center justify-center text-center">
+           
+
+        </h2>
+        <div class="flex flex-col items-center justify-center text-sm max-md:px-4 py-20">
+            <h1 class="text-center text-3xl font-bold max-w-2xl items-center justify-center text-gray-800 text-center">
+                404 Not Found
+            </h1>
+            <div class="h-px w-80 rounded bg-gradient-to-r glass my-5 md:my-7"></div>
+            <p class="md:text-xl text-black max-w-lg text-center">
+                The page you are looking for has been removed.
+            </p>
+            <a href="/"
+                class="group flex items-center gap-1 btn max-md:w-full glass border-pink-300 py-3 px-7 py-2.5 text-black rounded-full mt-10 font-medium active:scale-95 transition-all">
+                Back to Home 
+               
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"  stroke="black"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right size-4"
+                    aria-hidden="true">
+                    <path d="M5 12h14"></path>
+                    <path d="m12 5 7 7-7 7"></path>
+                </svg>
+            </a>
+        </div>
+   
+
+
+
+    <footer class="flex flex-col items-center px-4 md:px-16 lg:px-24 text-black justify-center w-full pt-16 mt-40 glass border-0">
+       
+        <div class="flex flex-wrap items-center justify-center gap-8 py-8">
+            <a class="transition text-black hover:text-gray-900" href="TermsOfServices.html">Terms of Service</a>
+            <a class="transition text-black hover:text-gray-900" href="privacy-policy.html">Privacy Policy</a>
+        </div>
+        <div class="flex items-center gap-6 pb-6">
+           
+            <a href="https://www.linkedin.com/company/manovasofts/about/?viewAsMember=true" class="hover:-translate-y-0.5 text-gray-200 transition-all duration-300">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                     stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-linkedin" aria-hidden="true">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect width="4" height="12" x="2" y="9"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+            </a>
+            <a href="#" class="hover:-translate-y-0.5 text-gray-200 transition-all duration-300">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                     stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-twitter" aria-hidden="true">
+                    <path
+                        d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z">
+                    </path>
+                </svg>
+            </a>
+            <a href="https://github.com/Manova-Softs" class="hover:-translate-y-0.5 text-gray-200 transition-all duration-300">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                     stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-github" aria-hidden="true">
+                    <path
+                        d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4">
+                    </path>
+                    <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                </svg>
+            </a>
+        </div>
+        <hr class="w-full border-white/20 mt-6" />
+        <div class="flex flex-col md:flex-row items-center w-full justify-between gap-4 py-4">
+            <p>Creations By Heart</p>
+            <p>Copyright © 2026 Manova. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<script src="/script.js"></script>
+
+</html>
